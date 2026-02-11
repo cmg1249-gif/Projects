@@ -57,7 +57,7 @@ if passwd_upper == True:
 else:
     score_upper = 0 
 print("Upper Score Score:", score_upper)
-
+# Path to the wordlist goes here
 with open("C:\\Users\\Connor Glasner\\Documents\\rockyou\\rockyou.txt", "r", encoding="latin-1") as file:
     wordlist = file.read().splitlines()
 
@@ -76,4 +76,5 @@ print(f"Your password score is: {user_passwd_score}/12")
       
 percentage_score = round((user_passwd_score / 12) * 100, 2)
 print(f"Your password score is: {percentage_score}%")
+
 
