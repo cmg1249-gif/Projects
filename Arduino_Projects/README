@@ -1,0 +1,42 @@
+# Arduino Temperature & Humidity Monitor (DHT11 + LCD)
+
+A simple Arduino project that reads temperature and humidity from a DHT11 sensor and displays the values on a 16x2 LCD screen. The display updates every second and includes basic error handling if the sensor fails to read.
+
+## Features
+- Reads temperature (Fahrenheit) and humidity using a DHT11 sensor
+- Displays values on a 16x2 LCD
+- Updates every second
+- Handles sensor read errors gracefully
+
+## Hardware Used
+- Arduino Uno (or compatible board)
+- DHT11 temperature/humidity sensor
+- 16x2 LCD (LiquidCrystal)
+- Jumper wires
+- Breadboard
+
+## Wiring Overview
+- LCD connected to pins 7, 8, 9, 10, 11, 12
+- DHT11 data pin connected to digital pin 3
+- 5V and GND to both LCD and DHT11
+
+## How It Works
+1. The Arduino initializes the LCD and DHT11 sensor.
+2. Every second, it reads:
+   - Humidity (%)
+   - Temperature (°F)
+3. The values are printed to the LCD.
+4. If the sensor fails to read, an error message is displayed.
+
+## Skills Demonstrated
+- Arduino C++ programming
+- Sensor integration (DHT11)
+- LCD interfacing with LiquidCrystal library
+- Real-time data display
+- Basic error handling
+
+## Future Improvements
+- Add thermostat functionality (relay control)
+- Add Celsius/Fahrenheit toggle
+- Add data logging
+- Add buttons for user input
