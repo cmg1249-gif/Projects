@@ -1,0 +1,14 @@
+# Rollercoaster Ticket Calculator
+
+A beginner‑friendly Python program that determines whether a user is tall enough to ride a rollercoaster and calculates their ticket price based on age and optional photo add‑ons. This project demonstrates conditional logic, user input handling, and basic program flow control.
+
+## Features
+- Checks if the user meets the minimum height requirement
+- Calculates ticket price based on age:
+  - Children: $5
+  - Youth: $7
+  - Adults: $12
+  - Ages 45–55 ride for free (special case)
+- Optional photo add‑on (+$3)
+- Outputs the final bill
+
