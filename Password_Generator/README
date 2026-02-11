@@ -1,0 +1,15 @@
+PyPassword Generator
+A simple Python password generator that creates randomized passwords based on user‑selected counts of letters, symbols, and numbers. The script uses Python’s  module to assemble a secure, shuffled password with customizable complexity.
+Features
+• 	Lets the user choose:
+• 	Number of letters
+• 	Number of symbols
+• 	Number of numbers
+• 	Randomly selects characters from predefined lists
+• 	Shuffles the final password to ensure randomness
+• 	Outputs a fully randomized password every run
+How It Works
+1. 	The script asks the user how many letters, symbols, and numbers they want.
+2. 	It randomly selects characters using .
+3. 	All characters are combined into a single string.
+4. 	The final password is shuffled and printed.
