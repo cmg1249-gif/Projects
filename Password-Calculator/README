@@ -1,0 +1,1 @@
+This simple program takes the users password, and gives a score based on its characteristics. It also checks to see if the password is on the rockyou.txt wordlist. (for this to work you will need a wordlist named rockyou.txt in the folder with the .py file.
