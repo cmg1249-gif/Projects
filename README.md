@@ -78,5 +78,5 @@ If you have feedback or suggestions, feel free to reach out!
 
 ## 📫 Contact
 
-- Email: [your email]  
-- GitHub: [your GitHub link]  
+- Email: [cmg1249@tm.edu]  
+- GitHub: [https://github.com/cmg1249-gif/Projects/]  
