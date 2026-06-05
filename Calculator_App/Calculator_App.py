@@ -22,11 +22,6 @@ operations = {
     "/": divide,
 }
 # TODO: Use the dictionary operations to perform the calculations. Multiply 4 * 8 using the dictionary.
-
-perform_multiply = operations["*"]
-perform_add = operations["+"]
-perform_subtract = operations["-"]
-perform_divide = operations["/"]
 will_continue = True
 first_number = int(input("Enter a number: "))
 while will_continue:
@@ -35,16 +30,16 @@ while will_continue:
     user_continue = input("Would you like to continue with another number?(y/n)?: ").lower()
 
     if operator == "+":
-        result = perform_add(first_number, second_number)
+        result = operations["+"](first_number, second_number)
         print(f"{first_number} + {second_number} = {result}")
     elif operator == "-":
-        result = perform_subtract(first_number, second_number)
+        result = operations["-"](first_number, second_number)
         print(f"{first_number} - {second_number} = {result}")
     elif operator == "*":
-        result = perform_multiply(first_number, second_number)
+        result = operations["*"](first_number, second_number)
         print(f"{first_number} * {second_number} = {result}")
     elif operator == "/":
-        result = divide(first_number, second_number)
+        result = operations["/"](first_number, second_number)
         print(f"{first_number} / {second_number} = {result}")
     else:
         print("Sorry, I didn't understand.")
