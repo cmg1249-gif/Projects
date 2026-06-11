@@ -1,0 +1,1 @@
+A simple program I wrote that mimics the logic of a coffee machine. I started this project to learn more about how functions work. As well as logic and passinng those different branches of logic off to if/elif/else statements. Along with understanding how to succesfully implement a while loop to continue a program when nescissary and stop when desired.
