@@ -1,0 +1,18 @@
+# Personal / local instructions
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
