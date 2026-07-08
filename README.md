@@ -8,40 +8,39 @@ I created this repository to document my progress, share my projects, and demons
 
 ## 🔍 What You'll Find Here
 
-### **Python Projects**
-Scripts and tools I’ve written while completing:
-- Udemy’s *100 Days of Python* (daily progress)
-- Personal automation projects
-- Log parsing and analysis tools
-- Small utilities for cybersecurity practice
+### **Python — 100 Days of Code**
+Daily projects from Udemy's *100 Days of Code: The Complete Python Pro Bootcamp*, in order of progression:
 
-### **Cybersecurity Labs**
-Notes, write-ups, and supporting files from:
-- TryHackMe (70+ hours of hands-on labs)
-- Linux privilege escalation practice
-- Networking and enumeration exercises
-- Digital forensics case studies
+| Project | Concepts |
+|---|---|
+| [Rock Paper Scissors](Rock_Paper_Scissors/) | Conditionals, lists, randomness |
+| [Password Generator](Password_Generator/) | Loops, string manipulation |
+| [Higher or Lower](Higher_Or_Lower/) | Functions, game logic |
+| [Blackjack](BlackJack/) | Functions, recursion, game state |
+| [Number Guessing Game](Number_Guessing_Game/) | Scope, difficulty levels |
+| [Calculator](Calculator_App/) | Dictionaries of functions, recursion |
+| [Coffee Machine](CoffeeMachine/) | Program state, resource management |
+| [Silent Auction](Silent_Auction/) | Dictionaries, loops |
+| [Quiz Game (OOP)](OOP_PROJECT/quiz/) | Classes, objects, attributes, methods |
+| [Hirst Painting](hirst-painting/) | Turtle graphics, tuples, external data |
+| [Etch-A-Sketch](etch_n_sketch/) | Event listeners, keybindings |
+| [Turtle Race](Turtle_Race/) | Multiple objects, coordinates |
+| [Snake Game](day-20-snake/) | OOP design across multiple classes |
+| [Pong](pong/) | Class inheritance, collision detection |
+| [Turtle Crossing](turtle-crossing-start/) | OOP, game difficulty scaling |
 
-### **Networking Projects**
-Configurations and notes from:
-- VLAN and trunking labs
-- SVI and inter-VLAN routing setups
-- Cisco IOS practice
-- Packet Tracer topologies
-
-### **Linux Administration**
-Documentation and examples covering:
-- Permissions and users
-- Processes and services
-- Networking tools
-- System troubleshooting
+### **Automation & Utility Scripts**
+Standalone tools I've written for my own machines:
+- [Downloads folder cleaner](DownlaodsDir_Cleaner_Script/) — sorts files by type automatically
+- [Arch Linux auto-update script](ArchScripts/) — system maintenance automation
+- [FurMark benchmark automation](furmark-automation/) — scripted GPU benchmark install and runs
 
 ### **Embedded Systems**
-Small experiments using:
-- ESP32
-- Arduino
-- Breadboard circuits
-- Basic sensors and GPIO
+Arduino experiments with breadboard circuits and sensors:
+- [Temperature & humidity monitor](Arduino_Projects/) — plus a timed-logging variant
+
+### **Coming Soon**
+As my coursework and labs progress, I plan to add cybersecurity lab write-ups (TryHackMe, digital forensics), networking configs (Cisco IOS, Packet Tracer), and Linux administration notes.
 
 ---
 
@@ -78,5 +77,5 @@ If you have feedback or suggestions, feel free to reach out!
 
 ## 📫 Contact
 
-- Email: [cmg1249@tm.edu]  
-- GitHub: [https://github.com/cmg1249-gif/Projects/]  
+- Email: [cmg1249@tm.edu](mailto:cmg1249@tm.edu)
+- GitHub: [github.com/cmg1249-gif](https://github.com/cmg1249-gif)
