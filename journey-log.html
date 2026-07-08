@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Journey So Far — Connor's Code Log</title>
+</head>
+<body>
+<style>
+  /* Committed single-theme design: a firelit Souls-style log. */
+  :root {
+    --ground: #16110c;
+    --panel: #201812;
+    --panel-edge: #35281c;
+    --ember: #e8873a;
+    --gold: #c9a86a;
+    --ash: #d9cfc0;
+    --muted: #8d8071;
+    --felled: #8fae72;
+    --serif: Georgia, 'Times New Roman', serif;
+    --mono: ui-monospace, Consolas, 'Cascadia Mono', monospace;
+  }
+  html { background: var(--ground); }
+  body {
+    background: var(--ground);
+    color: var(--ash);
+    font-family: var(--serif);
+    line-height: 1.6;
+    margin: 0;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px 80px; }
+
+  /* ---- Hero ---- */
+  .hero {
+    position: relative;
+    text-align: center;
+    padding: 84px 24px 56px;
+    overflow: hidden;
+    border-bottom: 1px solid var(--panel-edge);
+    background:
+      radial-gradient(ellipse 70% 60% at 50% 100%, rgba(232,135,58,.14), transparent 70%),
+      var(--ground);
+  }
+  #embers { position: absolute; inset: 0; pointer-events: none; }
+  .hero > * { position: relative; }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: .35em;
+    text-transform: uppercase;
+    color: var(--ember);
+    margin: 0 0 18px;
+  }
+  h1 {
+    font-size: clamp(34px, 6vw, 58px);
+    font-weight: 400;
+    letter-spacing: .08em;
+    margin: 0 0 10px;
+    color: var(--gold);
+    text-wrap: balance;
+  }
+  .subtitle { color: var(--muted); font-style: italic; margin: 0 auto; max-width: 46ch; }
+  .rule {
+    width: 220px; height: 1px; border: 0; margin: 34px auto;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+  .stats { display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; }
+  .stat { min-width: 120px; }
+  .stat b {
+    display: block;
+    font-family: var(--mono);
+    font-size: clamp(30px, 4vw, 42px);
+    font-weight: 600;
+    color: var(--ash);
+    font-variant-numeric: tabular-nums;
+  }
+  .stat span {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ---- Sections ---- */
+  h2 {
+    font-weight: 400;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: var(--gold);
+    margin: 64px 0 6px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  h2::after { content: ""; flex: 1; height: 1px; background: var(--panel-edge); }
+  .section-note { color: var(--muted); font-style: italic; margin: 0 0 26px; font-size: 14.5px; }
+
+  /* ---- Bonfire timeline ---- */
+  .months { display: flex; flex-direction: column; gap: 14px; }
+  .month { display: grid; grid-template-columns: 108px 1fr; gap: 16px; align-items: center; }
+  .month-name {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--muted); text-align: right;
+  }
+  .flames { display: flex; gap: 8px; flex-wrap: wrap; }
+  .day {
+    position: relative;
+    display: inline-flex; flex-direction: column; align-items: center; gap: 3px;
+    cursor: default;
+  }
+  .day i {
+    font-style: normal; font-size: 15px;
+    filter: saturate(.9);
+    transition: transform .18s ease;
+  }
+  .day:hover i { transform: scale(1.35); }
+  .day small {
+    font-family: var(--mono); font-size: 10px; color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .day .tip {
+    position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%);
+    background: var(--panel); border: 1px solid var(--panel-edge); color: var(--ash);
+    font-family: var(--mono); font-size: 11px; white-space: nowrap;
+    padding: 4px 9px; border-radius: 3px; opacity: 0; pointer-events: none;
+    transition: opacity .15s ease;
+  }
+  .day:hover .tip { opacity: 1; }
+
+  /* ---- Boss list ---- */
+  .bosses { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+  .boss {
+    background: var(--panel);
+    border: 1px solid var(--panel-edge);
+    padding: 15px 17px 13px;
+    transition: border-color .18s ease, transform .18s ease;
+  }
+  .boss:hover { border-color: var(--ember); transform: translateY(-2px); }
+  .boss h3 { margin: 0 0 2px; font-size: 16px; font-weight: 600; color: var(--ash); letter-spacing: .02em; }
+  .boss .concept { color: var(--muted); font-size: 13px; font-style: italic; display: block; margin-bottom: 10px; }
+  .badge {
+    font-family: var(--mono); font-size: 10px; letter-spacing: .2em;
+    text-transform: uppercase; color: var(--felled);
+  }
+  .badge::before { content: "✝ "; }
+  .badge.wip { color: var(--ember); }
+  .badge.wip::before { content: "⚔ "; }
+
+  /* ---- Side quests ---- */
+  .quests { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+  .quests li {
+    display: flex; justify-content: space-between; gap: 16px; align-items: baseline;
+    padding: 11px 2px; border-bottom: 1px solid var(--panel-edge);
+  }
+  .quests li span:last-child { color: var(--muted); font-size: 13.5px; font-style: italic; text-align: right; }
+
+  /* ---- Footer ---- */
+  footer {
+    margin-top: 72px; text-align: center; color: var(--muted);
+    font-style: italic; font-size: 14px;
+  }
+  footer .ember-line { color: var(--ember); font-style: normal; font-family: var(--mono); font-size: 11px; letter-spacing: .3em; text-transform: uppercase; margin-top: 8px; }
+
+  @media (max-width: 560px) {
+    .month { grid-template-columns: 1fr; gap: 6px; }
+    .month-name { text-align: left; }
+    .stats { gap: 28px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .day i, .boss { transition: none; }
+    #embers { display: none; }
+  }
+</style>
+
+<header class="hero">
+  <canvas id="embers"></canvas>
+  <p class="eyebrow">A record of deeds · Feb — Jul 2026</p>
+  <h1>The Journey So Far</h1>
+  <p class="subtitle">Connor's log of projects felled and commits kindled on the road through 100 Days of Code — drawn from the true git history.</p>
+  <hr class="rule">
+  <div class="stats">
+    <div class="stat"><b>19</b><span>Projects Felled</span></div>
+    <div class="stat"><b>58</b><span>Commits Kindled</span></div>
+    <div class="stat"><b>14</b><span>Bonfire Days</span></div>
+    <div class="stat"><b>24</b><span>Course Day</span></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>Bonfires Lit</h2>
+  <p class="section-note">Each flame is a day the repository saw work. Hover a flame for the commit count — larger fires burned longer.</p>
+  <div class="months" id="months"></div>
+
+  <h2>Bosses Felled — 100 Days of Code</h2>
+  <p class="section-note">Course projects in order of encounter, each with the skill it demanded.</p>
+  <div class="bosses">
+    <div class="boss"><h3>Rock Paper Scissors</h3><span class="concept">conditionals · randomness</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Password Generator</h3><span class="concept">loops · string craft</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Higher or Lower</h3><span class="concept">functions · game logic</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Blackjack</h3><span class="concept">recursion · game state</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Number Guessing Game</h3><span class="concept">scope · difficulty tiers</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Calculator</h3><span class="concept">dictionaries of functions</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Coffee Machine</h3><span class="concept">program state · resources</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Silent Auction</h3><span class="concept">dictionaries · loops</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Quiz Game</h3><span class="concept">first OOP · classes</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Hirst Painting</h3><span class="concept">turtle graphics · tuples</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Etch-A-Sketch</h3><span class="concept">event listeners</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Turtle Race</h3><span class="concept">many objects · coordinates</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Snake</h3><span class="concept">OOP across classes · file I/O</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Pong</h3><span class="concept">inheritance · collision</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Turtle Crossing</h3><span class="concept">difficulty scaling</span><span class="badge">Felled</span></div>
+    <div class="boss"><h3>Souls Death Counter</h3><span class="concept">screen capture · image match</span><span class="badge wip">Next Encounter</span></div>
+  </div>
+
+  <h2>Side Quests</h2>
+  <p class="section-note">Work taken on beyond the course — automation and hardware.</p>
+  <ul class="quests">
+    <li><span>Downloads Folder Cleaner</span><span>tidies files by type, automatically</span></li>
+    <li><span>Arch Linux Auto-Update Script</span><span>system maintenance, scripted</span></li>
+    <li><span>FurMark Benchmark Automation</span><span>GPU benchmarking, install to run</span></li>
+    <li><span>Arduino Temp &amp; Humidity Monitor</span><span>DHT11 sensor, plus a timed variant</span></li>
+    <li><span>Password Strength Calculator</span><span>an early work, kept for the record</span></li>
+  </ul>
+
+  <footer>
+    <p>"Don't you dare go hollow." — the journey continues at Day 24, where files remember what memory forgets.</p>
+    <p class="ember-line">github.com/cmg1249-gif/Projects</p>
+  </footer>
+</main>
+
+<script>
+  // Bonfire timeline data: [month, [[day, commits], ...]]
+  const activity = [
+    ["Feb 2026", [[11, 18]]],
+    ["Mar 2026", [[15, 4]]],
+    ["Apr 2026", [[10, 3]]],
+    ["Jun 2026", [[4, 2], [5, 4], [7, 2], [9, 4], [11, 3], [13, 5], [17, 2], [18, 3], [24, 3]]],
+    ["Jul 2026", [[7, 1], [8, 4]]],
+  ];
+  const flame = c => c >= 10 ? "🔥" : c >= 4 ? "🔥" : "🕯️";
+  const size = c => c >= 10 ? 26 : c >= 4 ? 19 : 15;
+  const monthsEl = document.getElementById("months");
+  for (const [name, days] of activity) {
+    const row = document.createElement("div");
+    row.className = "month";
+    const flames = days.map(([d, c]) =>
+      `<span class="day"><span class="tip">${c} commit${c > 1 ? "s" : ""}</span>` +
+      `<i style="font-size:${size(c)}px">${flame(c)}</i><small>${d}</small></span>`
+    ).join("");
+    row.innerHTML = `<span class="month-name">${name}</span><span class="flames">${flames}</span>`;
+    monthsEl.appendChild(row);
+  }
+
+  // Ambient embers rising in the hero.
+  const cv = document.getElementById("embers");
+  const ctx = cv.getContext("2d");
+  let W, H, parts = [];
+  function fit() {
+    W = cv.width = cv.offsetWidth;
+    H = cv.height = cv.offsetHeight;
+  }
+  fit();
+  addEventListener("resize", fit);
+  function spawn() {
+    return {
+      x: W * (0.5 + (Math.random() - 0.5) * 0.9),
+      y: H + 4,
+      r: 0.6 + Math.random() * 1.8,
+      vy: 0.25 + Math.random() * 0.65,
+      vx: (Math.random() - 0.5) * 0.3,
+      life: 1,
+      decay: 0.002 + Math.random() * 0.004,
+    };
+  }
+  for (let i = 0; i < 34; i++) { const p = spawn(); p.y = Math.random() * H; parts.push(p); }
+  const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function tick() {
+    ctx.clearRect(0, 0, W, H);
+    for (const p of parts) {
+      p.y -= p.vy; p.x += p.vx + Math.sin(p.y * 0.02) * 0.15; p.life -= p.decay;
+      if (p.life <= 0 || p.y < -5) Object.assign(p, spawn());
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, 7);
+      ctx.fillStyle = `rgba(232, 135, 58, ${0.5 * p.life})`;
+      ctx.fill();
+    }
+    requestAnimationFrame(tick);
+  }
+  if (!reduced) tick();
+</script>
+</body>
+</html>

@@ -75,6 +75,12 @@ If you have feedback or suggestions, feel free to reach out!
 
 ---
 
+## 🔥 The Journey So Far
+
+This repo includes [journey-log.html](journey-log.html) — a Souls-style visual log of my progress, generated from this repository's actual git history. Download it and open it in a browser to see it rendered.
+
+---
+
 ## 📫 Contact
 
 - Email: [cmg1249@tm.edu](mailto:cmg1249@tm.edu)
