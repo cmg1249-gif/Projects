@@ -51,10 +51,7 @@ while game_is_on:
 	if answer_state == EXIT:
 		game_is_on = False
 
-not_guessed_states = []
-for state in state_col.to_list():
-	if state not in guessed_states:
-		not_guessed_states.append(state)
+not_guessed_states = [state for state in state_col.to_list() if state not in guessed_states]
 
 missing_states = {
 	"Missing States": not_guessed_states,
