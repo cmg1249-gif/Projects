@@ -21,3 +21,7 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Game save data
+day-20-snake/data.txt
+us-states-game/missed_states.csv
