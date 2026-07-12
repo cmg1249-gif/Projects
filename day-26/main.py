@@ -12,11 +12,40 @@
 # print(new_range)
 #
 #
-import random
-names = ["Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie"]
+# import random
+# names = ["Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie"]
+#
+# student_scores = {name:random.randint(1,101) for name in names}
+#
+# passed_students = {
+#     key:value for (key, value) in student_scores.items() if value > 60
+# }
+# print(passed_students)
 
-student_scores = {name:random.randint(1,101) for name in names}
+# string = "This is a string"
+# print(string)
+# split = string.split()
+# print(split)
 
-passed_students = {
-    new_key:score for score in student_scores if student_score[]
-}
+# student_dict = {
+#     "student": ["Angela", "James", "Lily"],
+#     "score": [56, 76 ,98]
+#     }
+#
+# # for (key, value) in student_dict.items():
+# #     print (value)
+#
+# import pandas
+#
+# student_data_frame = pandas.DataFrame(student_dict)
+#
+#
+# # for (key, value) in student_data_frame.items():
+# #     print(key)
+# #     print(value)
+#
+# for (index, row) in student_data_frame.iterrows():
+#     print(row.score
+
+
+           )
