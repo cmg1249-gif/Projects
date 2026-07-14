@@ -5,16 +5,18 @@ A simple program to convert miles to kilometers. Created w/ python and Tkinter l
 from tkinter import *
 
 def calculate():
-    miles = int(input.get())
-    km = miles * 1.60934
-    label_answer.config(text=str(km))
-    return km
-
+    try:
+        miles = int(input.get())
+        km = miles * 1.60934
+        label_answer.config(text=str(km))
+        return km
+    except:
+        return 0
 # Setting up the window
 window = Tk()
 window.title("Mile to Km Converter")
 window.minsize(50, 50)
-window.config(padx=50, pady=50)
+window.config(padx=50, pady=30)
 
 # SETTING UP WIDGETS
 
