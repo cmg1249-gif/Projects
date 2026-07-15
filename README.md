@@ -27,11 +27,19 @@ Daily projects from Udemy's *100 Days of Code: The Complete Python Pro Bootcamp*
 | [Turtle Race](Turtle_Race/) | Multiple objects, coordinates |
 | [Snake Game](day-20-snake/) | OOP design across multiple classes |
 | [Pong](pong/) | Class inheritance, collision detection |
-| [Turtle Crossing](turtle-crossing-start/) | OOP, game difficulty scaling |
+| [Turtle Crossing](turtle-crossing/) | OOP, game difficulty scaling |
+| [US States Game](us-states-game/) | Pandas, CSV data, turtle graphics |
+| [NATO Alphabet Converter](NATO_Alphabet/) | Dictionary comprehensions, pandas |
+| [Mail Merge](mail-merge/) | File I/O, string replacement, paths |
+| [Data Analysis Practice](day-25/) | Pandas, real-world CSV datasets (NYC Squirrel Census) |
+| [Miles-to-KM Converter](day-27/) | Tkinter basics, GUI layout |
+| [Pomodoro Timer](pomodoro/) | Tkinter, dynamic UI updates, window events |
+| [Password Manager](password-manager/) | Tkinter GUI, file I/O, password generation, clipboard, input validation |
 
 ### **Automation & Utility Scripts**
 Standalone tools I've written for my own machines:
-- [Downloads folder cleaner](DownlaodsDir_Cleaner_Script/) — sorts files by type automatically
+- [Downloads folder cleaner](Downloads_Cleaner_Script/) — sorts files by type automatically
+- [Password strength calculator](Password-Calculator/) — scores a password's security
 - [Arch Linux auto-update script](ArchScripts/) — system maintenance automation
 - [FurMark benchmark automation](furmark-automation/) — scripted GPU benchmark install and runs
 
