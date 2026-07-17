@@ -28,3 +28,5 @@ us-states-game/missed_states.csv
 
 # Password manager saved credentials — never commit
 password-manager/data.txt
+password-manager/data.json
+password-manager/data.enc
