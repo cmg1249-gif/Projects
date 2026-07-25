@@ -9,13 +9,6 @@ ENG = "English"
 card_info = ""
 
 
-
-
-
-
-
-
-
 #------------------------- Picking Random Word for the Next Card --------------#
 try:
 	df = pandas.read_csv("./data/words_to_learn.csv")
@@ -23,8 +16,6 @@ try:
 except FileNotFoundError:
 	df = pandas.read_csv("./data/french_words.csv")
 	df_records = df.to_dict(orient="records")
-except ValueError:
-	messagebox.showinfo("Complete", "You Learned all the words!")
 
 def next_card():
 	global card_info , flip_timer
@@ -47,10 +38,13 @@ def flip_card():
 
 def is_known():
 	global card_info
-	df_records.remove(card_info)
-	data = pandas.DataFrame(df_records)
-	data.to_csv("./data/words_to_learn.csv", index=False)
-	next_card()
+	try:
+		df_records.remove(card_info)
+		data = pandas.DataFrame(df_records)
+		data.to_csv("./data/words_to_learn.csv", index=False)
+		next_card()
+	except ValueError:
+		messagebox.showerror("You Won!", "You learned all the words!")
 
 #-------------------------- UI ------------------------#
 # Window Creation
