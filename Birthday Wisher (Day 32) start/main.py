@@ -1,4 +1,8 @@
 import smtplib
+import os
+
+my_email = os.environ["MY_EMAIL"]
+password = os.environ["EMAIL_PASSWORD"]
 
 #
 # with smtplib.SMTP("smtp.gmail.com", 587) as connection:
