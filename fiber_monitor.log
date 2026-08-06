@@ -1,0 +1,623 @@
+2026-07-27 21:23:50 | MONITOR | started on Windows | watching: ROUTER=192.168.0.1, ISP_EDGE=216.196.65.254, INTERNET=8.8.8.8
+2026-07-27 21:23:50 | MONITOR | cycle=2s timeout=1000ms down_after=2 misses, spike_threshold=500ms
+2026-07-27 21:38:15 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-07-27 21:38:15 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-07-27 21:38:15 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-07-27 21:38:24 | EVENT | ROUTER (192.168.0.1) UP again after 11s down
+2026-07-27 21:38:24 | EVENT | ISP_EDGE (216.196.65.254) UP again after 11s down
+2026-07-27 21:38:24 | EVENT | INTERNET (8.8.8.8) UP again after 11s down
+2026-07-27 21:48:56 | MONITOR | started on Windows | watching: ROUTER=192.168.0.1, ISP_EDGE=216.196.65.254, INTERNET=8.8.8.8
+2026-07-27 21:48:56 | MONITOR | cycle=2s timeout=1000ms down_after=2 misses, spike_threshold=500ms
+2026-07-27 22:48:57 | HEARTBEAT | ROUTER ok, ISP_EDGE ok, INTERNET ok | cycles=1706 events_so_far=0
+2026-07-27 23:48:59 | HEARTBEAT | ROUTER ok, ISP_EDGE ok, INTERNET ok | cycles=3413 events_so_far=0
+2026-08-02 21:51:49 | MONITOR | started on Windows | watching: ROUTER=192.168.0.1, ISP_EDGE=216.196.65.254, INTERNET=8.8.8.8
+2026-08-02 21:51:49 | MONITOR | cycle=2s timeout=1000ms down_after=2 misses, spike_threshold=150ms, stats_every=60s, game_process=PioneerGame.exe
+2026-08-02 21:51:49 | GAME | Arc Raiders already running (PioneerGame.exe)
+2026-08-02 21:52:50 | STATS | ROUTER 1/1/3ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 23/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 21:53:50 | STATS | ROUTER 1/1/8ms jitter 1ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 23/23/26ms jitter 0ms loss 0/29 | game=on
+2026-08-02 22:07:49 | MONITOR | started on Windows | watching: ROUTER=192.168.0.1, ISP_EDGE=216.196.65.254, INTERNET=8.8.8.8
+2026-08-02 22:07:49 | MONITOR | cycle=2s timeout=1000ms down_after=2 misses, spike_threshold=150ms, stats_every=60s, game_process=PioneerGame.exe
+2026-08-02 22:07:49 | GAME | Arc Raiders already running (PioneerGame.exe)
+2026-08-02 22:08:51 | STATS | ROUTER 1/2/23ms jitter 1ms loss 0/31 | ISP_EDGE 1/2/33ms jitter 1ms loss 0/31 | INTERNET 23/24/52ms jitter 1ms loss 0/31 | game=on
+2026-08-02 22:09:53 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 23/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:10:55 | STATS | ROUTER 1/1/10ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 23/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:11:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 23/23/27ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:12:59 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 23/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:14:00 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/30 | INTERNET 23/24/50ms jitter 2ms loss 0/30 | game=on
+2026-08-02 22:15:02 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 23/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:16:04 | STATS | ROUTER 1/1/3ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/30 | INTERNET 23/23/26ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:17:06 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/30 | INTERNET 23/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:18:04 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-02 22:18:04 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-02 22:18:04 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:18:04 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: disconnected
+2026-08-02 22:18:08 | STATS | ROUTER 1/1/8ms jitter 1ms loss 4/30 | ISP_EDGE 1/1/4ms jitter 0ms loss 4/30 | INTERNET 23/23/25ms jitter 0ms loss 4/30 | game=on
+2026-08-02 22:18:30 | EVENT | ROUTER (192.168.0.1) UP again after 28s down
+2026-08-02 22:18:30 | EVENT | ISP_EDGE (216.196.65.254) UP again after 28s down
+2026-08-02 22:18:30 | EVENT | INTERNET (8.8.8.8) UP again after 28s down
+2026-08-02 22:18:37 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-02 22:18:37 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-02 22:18:37 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:18:37 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: disconnected
+2026-08-02 22:19:00 | EVENT | ROUTER (192.168.0.1) UP again after 25s down
+2026-08-02 22:19:00 | EVENT | ISP_EDGE (216.196.65.254) UP again after 25s down
+2026-08-02 22:19:00 | EVENT | INTERNET (8.8.8.8) UP again after 25s down
+2026-08-02 22:19:08 | STATS | ROUTER 1/1/1ms jitter 0ms loss 16/25 | ISP_EDGE 1/2/7ms jitter 2ms loss 16/25 | INTERNET 22/23/23ms jitter 1ms loss 16/25 | game=on
+2026-08-02 22:19:26 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-02 22:19:26 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-02 22:19:26 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:19:27 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: disconnected
+2026-08-02 22:20:09 | EVENT | ROUTER (192.168.0.1) UP again after 44s down
+2026-08-02 22:20:09 | EVENT | ISP_EDGE (216.196.65.254) UP again after 44s down
+2026-08-02 22:20:09 | EVENT | INTERNET (8.8.8.8) UP again after 44s down
+2026-08-02 22:20:09 | STATS | ROUTER 1/1/1ms jitter 0ms loss 11/20 | ISP_EDGE 1/2/8ms jitter 2ms loss 11/20 | INTERNET 22/23/23ms jitter 0ms loss 11/20 | game=on
+2026-08-02 22:20:42 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-02 22:20:42 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-02 22:20:42 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:20:42 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: disconnected
+2026-08-02 22:21:00 | EVENT | ROUTER (192.168.0.1) UP again after 20s down
+2026-08-02 22:21:00 | EVENT | ISP_EDGE (216.196.65.254) UP again after 20s down
+2026-08-02 22:21:00 | EVENT | INTERNET (8.8.8.8) UP again after 20s down
+2026-08-02 22:21:10 | STATS | ROUTER 1/1/1ms jitter 0ms loss 6/27 | ISP_EDGE 1/1/1ms jitter 0ms loss 6/27 | INTERNET 22/23/23ms jitter 0ms loss 6/27 | game=on
+2026-08-02 22:22:12 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:23:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:24:16 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:25:18 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:25:47 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-02 22:25:47 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-02 22:25:47 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:25:47 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: disconnected
+2026-08-02 22:25:59 | EVENT | ROUTER (192.168.0.1) UP again after 14s down
+2026-08-02 22:25:59 | EVENT | ISP_EDGE (216.196.65.254) UP again after 14s down
+2026-08-02 22:25:59 | EVENT | INTERNET (8.8.8.8) UP again after 14s down
+2026-08-02 22:26:20 | STATS | ROUTER 1/1/1ms jitter 0ms loss 6/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 6/30 | INTERNET 22/22/24ms jitter 1ms loss 6/30 | game=on
+2026-08-02 22:27:22 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/10ms jitter 1ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on
+2026-08-02 22:28:24 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:28:53 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:28:53 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: connected
+2026-08-02 22:28:56 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-02 22:28:56 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: connected
+2026-08-02 22:28:58 | EVENT | INTERNET (8.8.8.8) UP again after 9s down
+2026-08-02 22:29:00 | EVENT | ISP_EDGE (216.196.65.254) UP again after 8s down
+2026-08-02 22:29:25 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/27 | ISP_EDGE 1/2/5ms jitter 1ms loss 3/27 | INTERNET 22/23/27ms jitter 2ms loss 3/27 | game=on
+2026-08-02 22:30:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:31:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/28 | ISP_EDGE 1/1/6ms jitter 0ms loss 2/28 | INTERNET 22/23/27ms jitter 1ms loss 1/28 | game=on
+2026-08-02 22:31:30 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:31:30 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: connected
+2026-08-02 22:31:35 | EVENT | INTERNET (8.8.8.8) UP again after 8s down
+2026-08-02 22:32:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/28 | ISP_EDGE 1/2/6ms jitter 1ms loss 1/28 | INTERNET 22/23/27ms jitter 1ms loss 2/28 | game=on
+2026-08-02 22:33:29 | STATS | ROUTER 1/1/4ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/6ms jitter 1ms loss 0/30 | INTERNET 22/23/27ms jitter 1ms loss 0/30 | game=on
+2026-08-02 22:34:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:35:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on
+2026-08-02 22:36:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on
+2026-08-02 22:37:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on
+2026-08-02 22:37:39 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-02 22:37:39 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-02 22:37:39 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:37:39 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: disconnected
+2026-08-02 22:38:02 | EVENT | INTERNET (8.8.8.8) UP again after 25s down
+2026-08-02 22:38:04 | EVENT | ROUTER (192.168.0.1) UP again after 28s down
+2026-08-02 22:38:04 | EVENT | ISP_EDGE (216.196.65.254) UP again after 27s down
+2026-08-02 22:38:34 | STATS | ROUTER 1/1/1ms jitter 0ms loss 7/23 | ISP_EDGE 1/1/1ms jitter 0ms loss 7/23 | INTERNET 22/23/24ms jitter 0ms loss 6/23 | game=on
+2026-08-02 22:39:34 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/28ms jitter 1ms loss 0/29 | game=on
+2026-08-02 22:40:04 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-02 22:40:04 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-02 22:40:04 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:40:04 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: connected
+2026-08-02 22:40:14 | EVENT | ISP_EDGE (216.196.65.254) UP again after 11s down
+2026-08-02 22:40:14 | EVENT | INTERNET (8.8.8.8) UP again after 12s down
+2026-08-02 22:40:16 | EVENT | ROUTER (192.168.0.1) UP again after 14s down
+2026-08-02 22:40:25 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-02 22:40:26 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-02 22:40:27 | EVENT | INTERNET (8.8.8.8) DOWN
+2026-08-02 22:40:27 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: connected
+2026-08-02 22:40:32 | EVENT | ISP_EDGE (216.196.65.254) UP again after 9s down
+2026-08-02 22:40:32 | EVENT | INTERNET (8.8.8.8) UP again after 9s down
+2026-08-02 22:40:34 | EVENT | ROUTER (192.168.0.1) UP again after 11s down
+2026-08-02 22:40:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 7/26 | ISP_EDGE 1/1/1ms jitter 0ms loss 5/26 | INTERNET 22/23/23ms jitter 0ms loss 5/26 | game=on
+2026-08-02 22:41:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on
+2026-08-02 22:42:37 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on
+2026-08-02 22:43:39 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:44:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/24ms jitter 1ms loss 0/30 | game=on
+2026-08-02 22:45:42 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:46:44 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on
+2026-08-02 22:47:42 | MONITOR | started on Windows | watching: ROUTER=192.168.0.1, ISP_EDGE=216.196.65.254, INTERNET=8.8.8.8
+2026-08-02 22:47:42 | MONITOR | cycle=2s timeout=1000ms down_after=2 misses, spike_threshold=150ms, stats_every=60s, game_process=PioneerGame.exe
+2026-08-02 22:47:42 | GAME | Arc Raiders already running (PioneerGame.exe)
+2026-08-02 22:47:42 | ROUTE | traffic via Ethernet (192.168.0.78)
+2026-08-02 22:48:43 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/24ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-02 22:49:43 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 22:50:45 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-02 22:51:45 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 22:52:47 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-02 22:53:49 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-02 22:54:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/2/5ms jitter 1ms loss 1/29 | INTERNET 22/24/27ms jitter 1ms loss 1/29 | game=on via=Ethernet
+2026-08-02 22:55:52 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-02 22:56:52 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 22:57:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-02 22:58:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 22:59:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:00:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:01:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:02:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:03:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:04:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:05:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:06:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:07:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:08:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:09:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:10:59 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/8ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:11:44 | GAME | Arc Raiders stopped (PioneerGame.exe)
+2026-08-02 23:12:00 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:13:02 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:14:04 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:15:06 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:16:07 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/24ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:17:09 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:18:11 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:19:12 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:20:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/14ms jitter 1ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:21:16 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:22:17 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:23:19 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:24:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:25:23 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:26:24 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:27:26 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:28:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:29:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:30:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:31:34 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:32:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:33:38 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:34:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:35:42 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:36:44 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:37:46 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:38:48 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:39:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:40:52 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:41:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:42:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:43:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/22/23ms jitter 0ms loss 0/29 | game=off via=Ethernet
+2026-08-02 23:44:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/24ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:46:00 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:47:02 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:47:44 | HEARTBEAT | ROUTER ok, ISP_EDGE ok, INTERNET ok | cycles=1742 events_so_far=0
+2026-08-02 23:48:03 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 1/29 | game=off via=Ethernet
+2026-08-02 23:49:05 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:50:07 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:51:09 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:52:11 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:53:13 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-02 23:54:04 | GAME | Arc Raiders started (PioneerGame.exe)
+2026-08-02 23:54:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-02 23:55:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-02 23:56:17 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-02 23:57:18 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-02 23:58:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-02 23:59:23 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 00:00:25 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 00:01:25 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:02:25 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/8ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:03:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:04:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:05:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/34ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:06:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:07:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:08:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:09:29 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:10:29 | STATS | ROUTER 1/1/4ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:11:29 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:12:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:13:31 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:14:31 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/22/23ms jitter 0ms loss 1/29 | game=on via=Ethernet
+2026-08-03 00:15:31 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:16:31 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:17:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:18:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:19:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:20:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:21:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:22:34 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:23:35 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:24:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:25:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:26:37 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:27:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:28:39 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:29:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:30:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:31:41 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:32:41 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:33:41 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/6ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:34:42 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:35:42 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 23/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:36:43 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:37:44 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:38:44 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:39:44 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:40:44 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:41:46 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 00:42:46 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:43:46 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:44:48 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 00:45:49 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:46:49 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/27ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:47:46 | HEARTBEAT | ROUTER ok, ISP_EDGE ok, INTERNET ok | cycles=3473 events_so_far=0
+2026-08-03 00:47:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:48:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:49:51 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:50:51 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:51:52 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 23/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:52:52 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:53:53 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:54:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:55:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:56:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:57:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:58:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 00:59:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:00:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:01:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:02:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:03:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:04:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/22/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:06:00 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 01:07:02 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 01:08:02 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:09:03 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 23/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:10:04 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:11:04 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:12:05 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:13:06 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:14:07 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:15:07 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:16:08 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:17:09 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:18:10 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:19:11 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 23/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:20:12 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:21:12 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:22:13 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:23:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:24:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:25:15 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:26:15 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:27:16 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:28:17 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:29:17 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:30:17 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:31:19 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 01:32:19 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:33:19 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/22/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:34:20 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:35:20 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:36:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 23/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:37:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:38:22 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:39:23 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 23/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:40:24 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:41:24 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:42:24 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:43:25 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/29 | INTERNET 23/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:44:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 23/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:45:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:46:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:47:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:47:48 | HEARTBEAT | ROUTER ok, ISP_EDGE ok, INTERNET ok | cycles=5199 events_so_far=0
+2026-08-03 01:48:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:49:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:50:29 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:51:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:52:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 23/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:53:31 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 01:54:25 | GAME | Arc Raiders stopped (PioneerGame.exe)
+2026-08-03 01:54:31 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/22/23ms jitter 0ms loss 0/29 | game=off via=Ethernet
+2026-08-03 01:55:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-03 01:56:35 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-03 01:57:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-03 01:58:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-03 01:59:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/24ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-03 02:00:42 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=off via=Ethernet
+2026-08-03 02:01:43 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=off via=Ethernet
+2026-08-03 20:53:54 | MONITOR | started on Windows | watching: ROUTER=192.168.0.1, ISP_EDGE=216.196.65.254, INTERNET=8.8.8.8
+2026-08-03 20:53:54 | MONITOR | cycle=2s timeout=1000ms down_after=2 misses, spike_threshold=150ms, stats_every=60s, game_process=PioneerGame.exe
+2026-08-03 20:53:54 | GAME | Arc Raiders already running (PioneerGame.exe)
+2026-08-03 20:53:54 | ROUTE | traffic via Ethernet (192.168.0.78)
+2026-08-03 20:54:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/31 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/31 | INTERNET 22/22/23ms jitter 0ms loss 0/31 | game=on via=Ethernet
+2026-08-03 20:55:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 20:57:00 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 20:58:00 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-03 20:59:00 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:00:00 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:01:00 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:02:01 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:03:01 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:04:02 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:05:02 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:06:03 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:07:03 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:08:03 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:09:04 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:10:04 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:11:06 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:12:08 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:13:08 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:14:08 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:15:09 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:16:10 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:17:11 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 23/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:17:40 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-03 21:17:41 | EVENT | ISP_EDGE (216.196.65.254) DOWN
+2026-08-03 21:17:41 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: connected
+2026-08-03 21:17:46 | EVENT | ROUTER (192.168.0.1) UP again after 9s down
+2026-08-03 21:17:46 | EVENT | ISP_EDGE (216.196.65.254) UP again after 8s down
+2026-08-03 21:18:12 | STATS | ROUTER 1/1/1ms jitter 0ms loss 3/27 | ISP_EDGE 1/1/1ms jitter 0ms loss 2/27 | INTERNET 22/23/23ms jitter 0ms loss 0/27 | game=on via=Ethernet
+2026-08-03 21:18:50 | EVENT | ROUTER (192.168.0.1) DOWN
+2026-08-03 21:18:50 | LINK | local adapters: Wi-Fi: disconnected, Ethernet 2: connected, Ethernet: connected
+2026-08-03 21:18:54 | EVENT | ROUTER (192.168.0.1) UP again after 7s down
+2026-08-03 21:19:13 | STATS | ROUTER 1/1/1ms jitter 0ms loss 4/28 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/28 | INTERNET 22/23/23ms jitter 0ms loss 0/28 | game=on via=Ethernet
+2026-08-03 21:20:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:21:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:22:15 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:23:17 | STATS | ROUTER 1/1/1ms jitter 0ms loss 1/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 1/29 | game=on via=Ethernet
+2026-08-03 21:24:17 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:25:18 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 23/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:26:18 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:27:19 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:28:19 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:29:19 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:30:20 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:31:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:32:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:33:22 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:34:23 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:35:23 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:36:24 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/10ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:37:25 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:38:25 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:39:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:40:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:41:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:42:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 1/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:43:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 1/29 | ISP_EDGE 1/2/16ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:44:31 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:45:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:46:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/8ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:47:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:48:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:49:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 21:50:35 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:51:37 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:52:39 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:53:41 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:53:55 | HEARTBEAT | ROUTER ok, ISP_EDGE ok, INTERNET ok | cycles=1725 events_so_far=3
+2026-08-03 21:54:43 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/8ms jitter 0ms loss 0/30 | INTERNET 22/23/25ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:55:45 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:56:46 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:57:48 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:58:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/13ms jitter 1ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 21:59:53 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:00:52 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:01:52 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:02:53 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:03:53 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:04:53 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:05:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:06:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:07:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:08:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:09:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:10:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:11:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:12:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:13:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:14:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:15:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:16:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:17:59 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:18:59 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:20:01 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:21:03 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:22:05 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:23:07 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:24:09 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:25:11 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:26:13 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:27:15 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:28:17 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:29:19 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:30:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:31:22 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:32:24 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/30 | INTERNET 22/23/24ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:33:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:34:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:35:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:36:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:37:34 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/22/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:38:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/8ms jitter 1ms loss 0/30 | INTERNET 22/22/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:39:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:40:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:41:42 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:42:44 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:43:46 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 1ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:44:48 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/24ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:45:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:46:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:47:51 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:48:52 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:49:53 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:50:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 23/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:51:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:52:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:53:56 | STATS | ROUTER 1/1/5ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:53:56 | HEARTBEAT | ROUTER ok, ISP_EDGE ok, INTERNET ok | cycles=3461 events_so_far=3
+2026-08-03 22:54:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:55:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/8ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:56:59 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 22:58:01 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/30 | INTERNET 22/23/24ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 22:59:01 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:00:02 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:01:02 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:02:03 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:03:04 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:04:04 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:05:05 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:06:05 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/29 | ISP_EDGE 1/2/14ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:07:06 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:08:07 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:09:07 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:10:07 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:11:08 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:12:08 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:13:09 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:14:10 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:15:10 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:16:11 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:17:12 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:18:12 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:19:13 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:20:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:21:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:22:15 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:23:16 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:24:16 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:25:16 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:26:16 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:27:16 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:28:18 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/25ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 23:29:18 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:30:18 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:31:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-03 23:32:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:33:22 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:34:22 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 23/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:35:23 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:36:24 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:37:25 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:38:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:39:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:40:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:41:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:42:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:43:29 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:44:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:45:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:46:31 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:47:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:48:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:49:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:50:34 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:51:35 | STATS | ROUTER 1/1/8ms jitter 1ms loss 0/28 | ISP_EDGE 1/2/7ms jitter 1ms loss 0/28 | INTERNET 22/24/30ms jitter 1ms loss 0/28 | game=on via=Ethernet
+2026-08-03 23:52:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:53:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:53:57 | HEARTBEAT | ROUTER ok, ISP_EDGE ok, INTERNET ok | cycles=5184 events_so_far=3
+2026-08-03 23:54:37 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:55:37 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:56:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:57:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:58:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-03 23:59:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:00:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:01:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:02:39 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:03:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:04:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:05:41 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:06:42 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:07:43 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:08:44 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:09:45 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:10:45 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:11:46 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:12:46 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:13:46 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:14:47 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:15:48 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:16:49 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:17:49 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:18:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/25ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:19:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:20:50 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:21:51 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:22:51 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:23:51 | STATS | ROUTER 1/1/4ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/15ms jitter 1ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:24:52 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:25:53 | STATS | ROUTER 1/1/2ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:26:53 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:27:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:28:54 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:29:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:30:55 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:31:56 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/2/15ms jitter 2ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:32:56 | STATS | ROUTER 1/1/3ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/13ms jitter 1ms loss 0/29 | INTERNET 22/23/27ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:33:57 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:34:58 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:35:59 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:37:00 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:38:01 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:39:01 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/7ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:40:01 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:41:01 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:42:03 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-04 00:43:03 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:44:04 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:45:04 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:46:05 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:47:06 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:48:06 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:49:07 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:50:08 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:51:09 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:52:10 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:53:10 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:53:58 | HEARTBEAT | ROUTER ok, ISP_EDGE ok, INTERNET ok | cycles=6909 events_so_far=3
+2026-08-04 00:54:11 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:55:12 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:56:12 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:57:13 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:58:13 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 00:59:14 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:00:15 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:01:15 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:02:15 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:03:17 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-04 01:04:19 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-04 01:05:20 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:06:20 | STATS | ROUTER 1/1/4ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 1ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:07:20 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:08:21 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:09:22 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:10:23 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:11:23 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/6ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:12:24 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:13:25 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:14:25 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:15:26 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:16:27 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:17:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:18:28 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/9ms jitter 1ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:19:29 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:20:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:21:30 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:22:31 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:23:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:24:32 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:25:33 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:26:34 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/4ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:27:35 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:28:35 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:29:35 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:30:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:31:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:32:36 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/22/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:33:37 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/3ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:34:37 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:35:38 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:36:39 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/24ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:37:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/2ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:38:40 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
+2026-08-04 01:39:42 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/30 | ISP_EDGE 1/1/5ms jitter 0ms loss 0/30 | INTERNET 22/23/23ms jitter 0ms loss 0/30 | game=on via=Ethernet
+2026-08-04 01:40:42 | STATS | ROUTER 1/1/1ms jitter 0ms loss 0/29 | ISP_EDGE 1/1/1ms jitter 0ms loss 0/29 | INTERNET 22/23/23ms jitter 0ms loss 0/29 | game=on via=Ethernet
