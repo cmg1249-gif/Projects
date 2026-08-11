@@ -38,8 +38,11 @@ post_config = {
 
 }
 
-post_pixel = f"{pixela_endpoint}/{USER_NAME}/graphs/{GRAPH_ID}"
+# post_pixel = f"{pixela_endpoint}/{USER_NAME}/graphs/{GRAPH_ID}"
+#
+# response = requests.post(url=post_pixel, json=post_config, headers=headers)
 
-response = requests.post(url=post_pixel, json=post_config, headers=headers)
+delete_pixel_ep = f"{pixela_endpoint}/{USER_NAME}/graphs/{GRAPH_ID}/20260807"
+response = requests.delete(url=delete_pixel_ep, json=post_config, headers=headers)
 
 print(response.text)
