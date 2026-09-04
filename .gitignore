@@ -36,3 +36,7 @@ us-states-game/missed_states.csv
 password-manager/data.txt
 password-manager/data.json
 password-manager/data.enc
+
+# Room Cam runtime config — holds the viewer password; never commit
+roomcam_config.ini
+**/roomcam_config.ini
