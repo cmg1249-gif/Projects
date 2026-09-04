@@ -6,6 +6,12 @@ __pycache__/
 *.pyc
 *.pyo
 
+# PyInstaller build output (exe shipped via GitHub Releases, not committed)
+build/
+dist/
+*.spec
+*.exe
+
 # Virtual environments
 .venv/
 venv/
